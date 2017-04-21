@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8DB94B20-05CA-4DA7-A942-9E0A28BBA9E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{81DD60DD-2C7A-4AC2-9728-2BA8A9A082AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Extensions.Logging.Observable.DependencyInjection.Autofac.Tests", "test\Ofl.Extensions.Logging.Observable.DependencyInjection.Autofac.Tests\Ofl.Extensions.Logging.Observable.DependencyInjection.Autofac.Tests.csproj", "{34765BA6-C091-4873-8A1A-C137AAB4DDB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Extensions.Logging.Observable.DependencyInjection.Autofac", "src\Ofl.Extensions.Logging.Observable.DependencyInjection.Autofac\Ofl.Extensions.Logging.Observable.DependencyInjection.Autofac.csproj", "{EB4DAC3B-3A1A-4AD5-BAF0-DAB6E3ADE5E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34765BA6-C091-4873-8A1A-C137AAB4DDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34765BA6-C091-4873-8A1A-C137AAB4DDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34765BA6-C091-4873-8A1A-C137AAB4DDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34765BA6-C091-4873-8A1A-C137AAB4DDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB4DAC3B-3A1A-4AD5-BAF0-DAB6E3ADE5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4DAC3B-3A1A-4AD5-BAF0-DAB6E3ADE5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4DAC3B-3A1A-4AD5-BAF0-DAB6E3ADE5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4DAC3B-3A1A-4AD5-BAF0-DAB6E3ADE5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34765BA6-C091-4873-8A1A-C137AAB4DDB9} = {81DD60DD-2C7A-4AC2-9728-2BA8A9A082AC}
+		{EB4DAC3B-3A1A-4AD5-BAF0-DAB6E3ADE5E9} = {8DB94B20-05CA-4DA7-A942-9E0A28BBA9E1}
+	EndGlobalSection
+EndGlobal

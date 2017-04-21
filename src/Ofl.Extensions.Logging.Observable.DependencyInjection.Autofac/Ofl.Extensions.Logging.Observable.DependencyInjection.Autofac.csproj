@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <Version>1.0.0</Version>
+    <Description>Ofl.Extensions.Logging.Observable.Abstractions implementation registrations in Autofac.</Description>
+    <PackageProjectUrl>https://github.com/OneFrameLink/Ofl.Extensions.Logging.Observable.DependencyInjection.Autofac</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OneFrameLink/Ofl.Extensions.Logging.Observable.DependencyInjection.Autofac.git</RepositoryUrl>
+    <PackageTags>logging reactive observable dependencyinjection di autofac</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.0.0" />
+    <PackageReference Include="Ofl.Extensions.Logging.Observable" Version="1.0.2" />
+    <PackageReference Include="Ofl.Extensions.Logging.Observable.Abstractions" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>
